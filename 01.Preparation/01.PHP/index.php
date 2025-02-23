@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP-test</title>
+    <style>
+        body {background-color: grey;}
+    </style>
 </head>
 <body>
     <?php                                       #php = Hypertext Preprocessor
@@ -35,12 +38,29 @@
 
     //Arrays (Group of Values)
     $arrays = array(1, 2, "Three");
-    echo $arrays[0]; //Output: 1
+    echo $arrays[1]; //Output: 2
     echo "<br>";
     //Assosiative Array
-    $arrays = array("Name" => "Noah", "Age" => 99);
+    $arrays = array("Name" => "Noah", "Age" => 99, null => "Idk");
     echo $arrays['Name'];
+    print_r($arrays);
     echo "<br>";
+
+    //Objects
+    class math{
+        public $title = "The Lorenzattraktor is cool!";
+        public $title2 = "The Lorenzattraktor is uncool!";
+    }
+    $math_object = new math();
+    echo $math_object -> title;
+    echo "<br>";
+
+    //if and else
+    if(is_string($math_object)){
+        echo "It's a String!";
+    } else {
+        echo "It's not a String!";
+    }
     ?>
 </body>
 </html>
