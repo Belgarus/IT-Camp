@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP-test</title>
 </head>
 <body>
     <?php                                       #php = Hypertext Preprocessor
     echo "My first PHP script!";
     echo "<br>"; //new line
-    $PHP = "PHP is fun!";
-    echo $PHP;
+    $php = "PHP is fun!";
+    echo $php;
     echo "<br>"; 
 
     //Data Types
     //Integer (Whole Numbers)
     $Integer = 5; 
-    echo "Integer:" + $Integer;
+    echo "Integer: " . $Integer;
     echo "<br>"; 
     //Float (Decimal Numbers)
-    $Float = 3.141;
-    echo $Float;
+    $float = 3.141;
+    echo $float;
     echo "<br>"; 
     //Strings (text)
-    $String = "I'm a String!";
-    echo $String;
+    $string = "I'm a String!";
+    echo $string;
     echo "<br>";
     //Boolean (True/False)
-    $Boolean = true;
-    echo $Boolean;
-    $Boolean = false;
-    echo $Boolean;
+    $boolean = true;
+    echo $boolean;
+    $boolean = false;
+    echo $boolean;
+    echo "<br>";
+
+    //Arrays (Group of Values)
+    $arrays = array(1, 2, "Three");
+    echo $arrays[0]; //Output: 1
+    echo "<br>";
+    //Assosiative Array
+    $arrays = array("Name" => "Noah", "Age" => 99);
+    echo $arrays['Name'];
+    echo "<br>";
     ?>
 </body>
 </html>
