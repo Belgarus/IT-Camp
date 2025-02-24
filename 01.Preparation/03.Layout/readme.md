@@ -10,7 +10,7 @@ Favoriten
 2. https://www.shecodes.io/palettes/1241#palette <!--Natural light Green-->
 
 Ziele:
-1. Barrierefrieheit
-2. Flexibel bzw. responsiv
-3. Interaktiv
+1. Barrierefrieheit <!--Types, Alt, Parts-->
+2. Flexibel bzw. responsiv <!--Flexbox-->
+3. Interaktiv <!--JavaScript-->
 4. Simplifikation <!--max. 4 Farben, Simpler Aufbau und Styling, Kommentare-->
