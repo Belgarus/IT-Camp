@@ -14,3 +14,6 @@ Ziele:
 2. Flexibel bzw. responsiv <!--Flexbox-->
 3. Interaktiv <!--JavaScript-->
 4. Simplifikation <!--max. 4 Farben, Simpler Aufbau und Styling, Kommentare-->
+
+Dropdown:
+https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
