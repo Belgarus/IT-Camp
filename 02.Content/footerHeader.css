@@ -1,0 +1,12 @@
+:root { --background-color: #dfd3c3;
+            --header-color: #c7b198;
+
+}
+body { height: 100vh;
+            background-color: var(--background-color);
+            margin: 0;
+          }
+
+header {background-color: var(--header-color);
+              padding: 10px;
+}
