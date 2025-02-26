@@ -14,11 +14,11 @@ body { height: 100vh;
 header {background-color: var(--header-color);
               padding: 10px;
               display: flex;
-
 }
 
 footer { background-color: var(--footer-color);
              padding: 50px;
 
 }
-.Logo {float: left;}
+.Logo {
+    float: left;}
