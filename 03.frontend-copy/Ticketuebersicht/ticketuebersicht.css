@@ -84,40 +84,28 @@ body {
   margin: 0;
 }
 
-nav {
-  overflow: hidden;
-  background-color: var(--footer-color);
+#nTBtn {
   border-radius: 8px;
+  border: solid var(--footer-color); 
+  cursor: pointer;
+  padding: 7px 16px;
+  float: right;
+  margin-right: 16px;
 }
 
-#a {
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 8px 30px;
+#nTBtn:hover{
+  transition: all 0.2s; 
+  background-color: var(--header-color);
+  border: solid var(--background-color);
+}
+
+a {
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-.dropdown {
-  overflow: hidden;
-}
-
-/*overflow controls what happens to content that is too big to fit into an area.*/
-
-.dropdown .dropBtn {
-  font-size: 16px;
-  outline: none;
-  /*outline, line around the border*/
-  border: none;
-  color: white;
-  padding: 10px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-#a:hover .dropdown:hover .dropBtn {
-  background-color: brown;
+#nTLink {
+  color: rgb(0, 0, 0);
 }
 
 .dropdown-content {
