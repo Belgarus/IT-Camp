@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benutzer bearbeiten</title>
+    <link href="benutzer_verwalten_bearbeiten.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h2>User bearbeiten</h2>
+        <form action="{{ url_for ('benutzer_bearbeiten_exe') }}" method="POST">
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="Name" value="{{ test[1] }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="Gruppe">Gruppe:</label>
+                <input type="text" id="Gruppe" name="Gruppe" value="{{ test[4] }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="Rolle">Rolle:</label>
+                <input type="text" id="Rolle" name="Rolle" value="{{ test[5] }}">
+            </div>
+            
+            <button id="button" type="submit">Speichern</button>
+        </form>
+    </main>
+</body>
+</html>
